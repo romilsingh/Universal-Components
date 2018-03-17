@@ -1,5 +1,4 @@
-# Page
-This is a blank page. 
-Only use this page if you are in need of a page with no recondition.
-
-If you are starting a new page that will need nav bar and nav menu please use the New Page repository
+# Universal Components
+This is where you will start your project, most of the projects foundation will be found here.
+Now you will need to copy the code and create a skeleton or UK.
+If you need to customize some code please contact mendy and the developere who developed the componant
