@@ -1,0 +1,31 @@
+import 'package:flutter/services.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_statusbarcolor/flutter_statusbarcolor.dart';
+
+void main(){
+
+  runApp(new MaterialApp(
+    home: new MyWidget1(),
+  ));
+}
+
+
+class MyWidget1 extends StatelessWidget{
+
+  @override
+  Widget build(BuildContext context) {
+
+
+    try{
+      FlutterStatusbarcolor.setStatusBarColor(Colors.white);
+      FlutterStatusbarcolor.setNavigationBarColor(Colors.white);
+    } on PlatformException catch (e) {
+      print(e);
+    }
+
+    // TODO: implement build
+    return new Scaffold(
+      backgroundColor: Colors.white,
+    );
+  }
+}
